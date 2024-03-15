@@ -1,3 +1,0 @@
-- Translations
-  - [English](/en/)
-  - [CN中文](/)
