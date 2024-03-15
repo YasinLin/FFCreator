@@ -109,7 +109,9 @@ const createFFTask = () => {
 
   creator.on('complete', e => {
     console.log(
-      colors.magenta(`FFCreator completed: \n USEAGE: ${e.useage} \n PATH: ${e.output} `),
+      colors.magenta(
+        `FFCreator completed: \n USEAGE: ${e.useage} \n PATH: ${e.output}`,
+      ),
     );
 
     console.log(colors.green(`\n --- You can press the s key or the w key to restart! --- \n`));

@@ -29,7 +29,7 @@ const transitionDemoTask = () => {
     debug: false,
   });
 
-  for (let i = 1; i < 6; i++) {
+  for (let i = 1; i < 3; i++) {
     const transition = trans[i - 1];
     const text = `这是第 ${order[i - 1]} 屏`;
     const scene = creatScene({ index: i, transition, text });

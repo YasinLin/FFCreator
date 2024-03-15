@@ -13,6 +13,10 @@ const clearAllFiles = () => {
 
 const choices = [
   {
+    name: 'test vs',
+    value: 'ffcreator-vs',
+  },
+  {
     name: 'Picture animation video',
     value: 'image',
   },

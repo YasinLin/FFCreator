@@ -4,6 +4,7 @@ const startAndListen = require('./listen');
 const { FFCreatorCenter, FFScene, FFImage, FFCreator } = require('../');
 
 const createFFTask = () => {
+  const bg = path.join(__dirname, './assets/imgs/bg/00.webp');
   const bg1 = path.join(__dirname, './assets/imgs/bg/05.jpg');
   const bg2 = path.join(__dirname, './assets/imgs/bg/04.jpeg');
   const logo2 = path.join(__dirname, './assets/imgs/logo/logo2.png');
@@ -37,7 +38,7 @@ const createFFTask = () => {
   scene2.setBgColor('#b33771');
 
   // add scene1 background
-  const fbg1 = new FFImage({ path: bg1, x: width / 2, y: height / 2 });
+  const fbg1 = new FFImage({ path: bg, x: width / 2, y: height / 2 });
   scene1.addChild(fbg1);
 
   // add bottom cloud
