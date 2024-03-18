@@ -1,5 +1,11 @@
 declare namespace FFCreatorSpace {
   interface FFExectorConf extends FFCreatorConf {
+    outputDir?: string,
+    cacheDir?: string,
+    render?: string,
+    ffmpeg_path?: string,
+    ffprobe_path?: string,
+    cloud?: boolean,
   }
   /**
    * FFVideoAlbum - A Videos Album component that supports multiple switching animation effects

@@ -48,3 +48,6 @@ examples/output
 # testing
 coverage/**
 dwt*
+
+cache
+output
