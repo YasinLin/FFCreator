@@ -19,6 +19,11 @@ declare namespace FFCreatorSpace {
 	class FFExector extends FFEventer {
 		constructor(conf: FFExectorConf);
 
-		sync(json: any) :any;
+		sync (json: any): any;
+
+
+		setFFmpegPath (ffmpeg_path: string): void;
+
+		setFFprobePath (ffprobe_path: string): void;
   }
 }
