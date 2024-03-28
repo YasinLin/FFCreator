@@ -1,6 +1,6 @@
 {
   "name": "@woqi/ffcreator",
-  "version": "0.0.12",
+  "version": "0.0.18",
   "description": "使用FFCreator解析json模版制作短视频",
   "main": "lib/index.js",
   "types": "types/index.d.ts",
@@ -56,5 +56,9 @@
     "dist",
     "lib",
     "types"
-  ]
+  ],
+  "publishConfig": {
+
+    "registry": "http://nexus.qyt.com/repository/npm-host"
+  }
 }
